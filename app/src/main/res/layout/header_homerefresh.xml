@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:gravity="center_horizontal"
+              android:layout_height="150dp">
+
+    <ImageView
+        android:src="@mipmap/home_refresh_img"
+        android:scaleType="centerInside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="松开刷新界面,继续下来去签到抽奖"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        />
+
+</LinearLayout>
